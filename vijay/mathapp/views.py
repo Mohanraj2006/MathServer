@@ -22,4 +22,4 @@ def surfacearea(request):
         context['h'] = h
         print('Area =', area)
     
-    return render(request,'mathapp/math.html', context)
+    return render(request, 'mathapp/math.html', context)
